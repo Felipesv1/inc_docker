@@ -1,3 +1,4 @@
+#!/bin/sh
 cd /var/www/
 if [ ! -f "/var/www/wp-config.php" ]; then
   wp cli update
